@@ -42,10 +42,7 @@ body {
 
 .topbtn {
   display: flex;
-  justify-content: center;
   align-items: center; 
-  margin-top: 1%;
-  margin-bottom: 5%;
   margin-left: 50%;
   height: 40px;
   width: 40px;
@@ -57,7 +54,6 @@ body {
 
 .leftbtn {
   display: inline-block;
-  justify-content: center;
   align-items: center;
   margin-left: 2%;
   height: 40px;
@@ -69,13 +65,12 @@ body {
   }
 
 .centerbtn {
-  position: relative;
   display: inline-block;
-  justify-content: center;
   align-items: center;
   height: 360px;
   width: 240px;
-  margin-left: 40%;
+  margin: 5%, 40%, 5%, 40%; 
+  margin-left: 30%;
   border-radius: 4px;
   background-color:  #4343F9;	
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
@@ -88,11 +83,9 @@ body {
   }
 
 .rightbtn {
-  position: relative;
   display: inline-block;
-  justify-content: center;
   align-items: center;
-  margin-left: 40%;
+  margin-left: 30%;
   height: 40px;
   width: 40px;
   border-radius: 40px;
@@ -103,10 +96,7 @@ body {
 
 .bottombtn {
   display: flex;
-  justify-content: center;
   align-items: center;
-  margin-top: 5%;
-  margin-bottom: 1%;
   margin-left: 50%;
   height: 40px;
   width: 40px;
