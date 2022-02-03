@@ -33,86 +33,85 @@ border-radius: 0;
 
 /*End of CSS reset*/
 
-
 body {
-margin: 0;
-height: 100vh;
-width: 100vw;
-background-color: #4343F9;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: #4343F9;
 }
 
 .topbtn {
-display: inline-block;
-justify-content: center;
-align-items: center;
-height: 40px;
-width: 40px;
-border: 1px;
-border-radius: 40px;
-background-color: #4343F9;
-color: #4343F9;
-box-shadow: 0 0 10px rgba(0,0,0,0.2) ;
-}
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin-top: 1%;
+  margin-bottom: 5%;
+  margin-left: 50%;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  background-color: #4343F9;
+  color: #4343F9;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
 
 .leftbtn {
-display: flex;
-justify-content: left;
-align-items: flex-start;
-height: 40px;
-width: 40px;
-border: 1px;
-border-radius: 40px;
-background-color: #4343F9;
-color: #4343F9;
-box-shadow: 0 0 10px rgba(0,0,0,0.2) ;
-}
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2%;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  background-color: #4343F9;
+  color: #4343F9;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
 
 .centerbtn {
-display: flex;
-justify-content: center;
-align-items: center;
-left: 50%;
-top: 50%;
-width: 240px;
-height: 360px;
-border: auto;
-border-radius: 0;
-margin-left: 45%;
-background-color:  #4343F9;	
-box-shadow: 0 0 10px rgba(0,0,0,0.2) ;
-}
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  height: 360px;
+  width: 240px;
+  margin-left: 40%;
+  border-radius: 4px;
+  background-color:  #4343F9;	
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
 
 .centerbtn h1 {
-color: #FFF;
-font-family: 'Montserrat', sans-serif; 
-font-size: 30px;
-}
+  color: #FFF;
+  font-family: 'Montserrat', sans-serif; 
+  font-size: 30px;
+  }
 
 .rightbtn {
-display: flex;
-justify-content: right;
-align-items: flex-end;
-height: 40px;
-width: 40px;
-border: 1px;
-border-radius: 40px;
-background-color: #4343F9;
-color: #4343F9;
-box-shadow: 0 0 20px rgba(0,0,0,0.2) ;
-}
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40%;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  background-color: #4343F9;
+  color: #4343F9;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  }
 
 .bottombtn {
-display: flex;
-justify-content: center;
-align-items: bottom;
-left: 50%;
-bottom: 5px;
-margin-left: 45%;
-height: 40px;
-width: 40px;
-border: 1px;
-border-radius: 40px;
-background-color: #4343F9;
-color: #4343F9;
-box-shadow: 0 0 10px rgba(0,0,0,0.2) ;
-}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 1%;
+  margin-left: 50%;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  background-color: #4343F9;
+  color: #4343F9;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
