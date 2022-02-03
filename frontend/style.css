@@ -1,0 +1,86 @@
+* {
+margin: 0;
+padding: 0;
+border: 0;
+outline: none;
+box-sizing: border-box;
+background: transparent;
+font-family: inherit;
+}
+a{
+text-decoration: none;
+}
+a img {
+border: none;
+}
+
+button,
+a {
+cursor: pointer;
+color: inherit;
+}
+
+textarea {
+resize: none;
+}
+
+button,
+textarea,
+select {
+appearance: none !important;
+border-radius: 0;
+}
+
+/*End of CSS reset*/
+
+#root{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #2f43f5;
+    background-size: cover;
+}
+.leftbtn {
+    display: flex;
+    justify-content: flex-start;
+    }
+
+.centerbtn {
+    display: flex;
+    justify-content: center;
+    }
+
+.rightbtn {
+    display: flex;
+    justify-content: flex-end;
+    }
+
+h1 {
+    background-color: green;
+    color: white;
+    
+    }
+
+
+button {
+    left: 50%;
+    width: 240px;
+    height: 240px;
+    border-radius: 240px;
+    line-height: 0;
+    padding: 0;
+    padding-bottom:20px;
+    border: 0;
+    margin: 0;
+    margin-left: 45%;
+    
+
+    background-color: #2f43f5;
+    color: rgb(245, 245, 250);
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 200px;
+    font-weight: lighter;
+}
